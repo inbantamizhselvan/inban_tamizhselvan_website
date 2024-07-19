@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/inban_tamizhselvan_website/static/css/main.9971215b.css",
-    "main.js": "/inban_tamizhselvan_website/static/js/main.0af9dd55.js",
+    "main.css": "/inban_tamizhselvan_website/static/css/main.a0e10345.css",
+    "main.js": "/inban_tamizhselvan_website/static/js/main.a5056130.js",
     "static/media/resume.pdf": "/inban_tamizhselvan_website/static/media/resume.f7fd05486ef9bf04cf86.pdf",
     "static/media/profile.jpg": "/inban_tamizhselvan_website/static/media/profile.cbc26d29db4b6d3ffcd8.jpg",
     "index.html": "/inban_tamizhselvan_website/index.html",
-    "main.9971215b.css.map": "/inban_tamizhselvan_website/static/css/main.9971215b.css.map",
-    "main.0af9dd55.js.map": "/inban_tamizhselvan_website/static/js/main.0af9dd55.js.map"
+    "main.a0e10345.css.map": "/inban_tamizhselvan_website/static/css/main.a0e10345.css.map",
+    "main.a5056130.js.map": "/inban_tamizhselvan_website/static/js/main.a5056130.js.map"
   },
   "entrypoints": [
-    "static/css/main.9971215b.css",
-    "static/js/main.0af9dd55.js"
+    "static/css/main.a0e10345.css",
+    "static/js/main.a5056130.js"
   ]
 }
