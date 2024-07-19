@@ -1,15 +1,23 @@
 {
   "files": {
-    "main.css": "/inban_tamizhselvan_website/static/css/main.13e4698d.css",
-    "main.js": "/inban_tamizhselvan_website/static/js/main.a5056130.js",
+    "main.css": "/inban_tamizhselvan_website/static/css/main.8a825cf1.css",
+    "main.js": "/inban_tamizhselvan_website/static/js/main.60ae449a.js",
+    "static/media/fa-solid-900.ttf": "/inban_tamizhselvan_website/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
+    "static/media/fa-brands-400.ttf": "/inban_tamizhselvan_website/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
+    "static/media/fa-solid-900.woff2": "/inban_tamizhselvan_website/static/media/fa-solid-900.93f719f4d62bfa3e748c.woff2",
+    "static/media/fa-brands-400.woff2": "/inban_tamizhselvan_website/static/media/fa-brands-400.bb8d5a145e22822103fb.woff2",
     "static/media/resume.pdf": "/inban_tamizhselvan_website/static/media/resume.f7fd05486ef9bf04cf86.pdf",
+    "static/media/fa-regular-400.ttf": "/inban_tamizhselvan_website/static/media/fa-regular-400.17a6e1aebccdbaa39e78.ttf",
     "static/media/profile.jpg": "/inban_tamizhselvan_website/static/media/profile.cbc26d29db4b6d3ffcd8.jpg",
+    "static/media/fa-regular-400.woff2": "/inban_tamizhselvan_website/static/media/fa-regular-400.bc3722686635b5f86132.woff2",
+    "static/media/fa-v4compatibility.ttf": "/inban_tamizhselvan_website/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
+    "static/media/fa-v4compatibility.woff2": "/inban_tamizhselvan_website/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
     "index.html": "/inban_tamizhselvan_website/index.html",
-    "main.13e4698d.css.map": "/inban_tamizhselvan_website/static/css/main.13e4698d.css.map",
-    "main.a5056130.js.map": "/inban_tamizhselvan_website/static/js/main.a5056130.js.map"
+    "main.8a825cf1.css.map": "/inban_tamizhselvan_website/static/css/main.8a825cf1.css.map",
+    "main.60ae449a.js.map": "/inban_tamizhselvan_website/static/js/main.60ae449a.js.map"
   },
   "entrypoints": [
-    "static/css/main.13e4698d.css",
-    "static/js/main.a5056130.js"
+    "static/css/main.8a825cf1.css",
+    "static/js/main.60ae449a.js"
   ]
 }
