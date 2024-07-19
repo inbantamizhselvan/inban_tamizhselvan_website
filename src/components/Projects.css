@@ -6,7 +6,8 @@
   .projects-heading {
     font-family: 'Josefin Sans', sans-serif;
     color: teal;
-    text-align: right;
+    text-align: left;
+    margin-bottom: 50px;
     font-size: 2rem; 
     margin-bottom: 20px;
   }

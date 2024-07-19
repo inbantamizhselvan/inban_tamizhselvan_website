@@ -37,7 +37,7 @@ function Home() {
               <div className="typing">
                 <p>{text}</p>
               </div>
-              <a href={resume} target="_blank" rel="noopener noreferrer" className="download-resume-btn">Download Resume</a>
+              <a href={resume} target="_blank" rel="noopener noreferrer" className="download-resume-btn"><i class="fas fa-cloud-download-alt"></i> Download Resume</a>
             </div>
           </div>
         </div>

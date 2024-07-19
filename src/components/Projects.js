@@ -1,11 +1,14 @@
 import React from 'react';
 import './Projects.css';
+import '@fortawesome/fontawesome-free/css/all.min.css';
+
 
 function Projects() {
   return (
     <section id="projects" className="projects">
       <div className="container">
-        <h1 className="projects-heading">Projects</h1>
+        <h1 className="projects-heading">
+        <i className="fas fa-box"></i> Projects</h1>
         <div className="container marketing">
           <div className="row justify-content-center">
             <div className="col-lg-4">

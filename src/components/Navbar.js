@@ -23,7 +23,7 @@ function Navbar() {
     <nav className={`navbar navbar-expand-lg ${navbarBg ? 'navbar-scroll' : ''}`}>
       <div className="container-fluid">
         <a className="navbar-brand" href="#home">
-          <b>Portfolio Website</b>
+        <b><i class="fas fa-file-alt"></i> Portfolio Website</b>
         </a>
         <button
           className="navbar-toggler"
@@ -40,22 +40,22 @@ function Navbar() {
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
             <li className="nav-item">
               <a className={`nav-link ${navbarBg ? 'nav-link-scroll' : ''}`} aria-current="page" href="#home">
-                Home
+              <i class="fas fa-home-alt"></i> Home
               </a>
             </li>
             <li className="nav-item">
               <a className={`nav-link ${navbarBg ? 'nav-link-scroll' : ''}`} href="#about">
-                About
+              <i class="fas fa-user"></i> About
               </a>
             </li>
             <li className="nav-item">
               <a className={`nav-link ${navbarBg ? 'nav-link-scroll' : ''}`} href="#projects">
-                Projects
+              <i class="fas fa-code"></i>  Projects
               </a>
             </li>
             <li className="nav-item">
               <a className={`nav-link ${navbarBg ? 'nav-link-scroll' : ''}`} href="#contact">
-                Contact
+              <i class="fas fa-address-book"></i> Contact
               </a>
             </li>
           </ul>

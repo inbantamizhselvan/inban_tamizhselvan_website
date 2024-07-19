@@ -82,6 +82,9 @@
   color: #fff; /* White color for toggler */
   border-color: #fff; /* White border color */
 }
+i{
+  padding-right: 6px;
+}
 
 @media (max-width: 991px) {
   .navbar-toggler {
