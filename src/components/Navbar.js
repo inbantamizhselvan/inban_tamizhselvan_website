@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './Navbar.css';
 
 function Navbar() {
   const [navbarBg, setNavbarBg] = useState(false);
 
-  // Change navbar background on scroll
   useEffect(() => {
     const handleScroll = () => {
       const currentScrollY = window.scrollY;
