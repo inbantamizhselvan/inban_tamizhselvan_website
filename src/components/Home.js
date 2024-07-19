@@ -9,7 +9,7 @@ function Home() {
   const [index, setIndex] = useState(0);
 
   const fullText =
-    "I am a Computer Science professional currently pursuing a Master of Science in Computer and Information Science at the University of Massachusetts Dartmouth.";
+    "I am a Computer Science professional currently pursuing Master of Science in Computer and Information Science at the University of Massachusetts Dartmouth.";
 
   useEffect(() => {
     if (index < fullText.length) {
