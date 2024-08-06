@@ -65,6 +65,7 @@ section {
   height: 100vh;
   padding: 100px 0;
   overflow: hidden;
+  flex-direction: column; /* Stacks content vertically on smaller screens */
 }
 
 .profile-pic-wrapper {
@@ -73,7 +74,6 @@ section {
   height: auto;
   width: auto;
   position: relative;
-  /* Adjusted to move the image up */
   margin-top: -76px; /* Negative value to move the image up */
   animation: slideLeft 2s ease-out forwards; /* Apply the sliding animation */
 }
@@ -96,6 +96,7 @@ section {
 .text-wrapper {
   text-align: center;
   max-width: 100%;
+  padding: 0 20px; /* Padding for small screens */
 }
 
 .name {
@@ -129,4 +130,58 @@ section {
   background-color: #ffa500;
   cursor: pointer;
   text-decoration: none;
+}
+
+/* Media Queries */
+@media (max-width: 1200px) {
+  .profile-pic {
+    height: 300px; /* Adjust size for medium screens */
+    width: 300px;
+  }
+
+  .name {
+    font-size: 2.5em;
+  }
+
+  .typing p {
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 768px) {
+  .profile-pic {
+    height: 200px; /* Adjust size for small screens */
+    width: 200px;
+  }
+
+  .name {
+    font-size: 2em;
+  }
+
+  .typing p {
+    font-size: 0.9em;
+  }
+
+  .home {
+    padding: 50px 0; /* Reduce padding for smaller screens */
+  }
+
+  .text-wrapper {
+    padding: 0 10px; /* Less padding on very small screens */
+  }
+}
+
+@media (max-width: 576px) {
+  .profile-pic {
+    height: 150px; /* Further reduce size for extra-small screens */
+    width: 150px;
+  }
+
+  .name {
+    font-size: 1.5em;
+  }
+
+  .typing p {
+    font-size: 0.8em;
+  }
 }

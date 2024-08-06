@@ -1,84 +1,149 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Rubik:ital,wght@0,300..900;1,300..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
 .projects {
-    padding: 76px 0;
-  }
-  
+  padding: 76px 0;
+}
+
+.projects-heading {
+  font-family: 'Josefin Sans', sans-serif;
+  color: teal;
+  text-align: left;
+  margin-bottom: 50px;
+  font-size: 2rem;
+}
+
+.project-card {
+  margin-bottom: 30px;
+  background-color: #000; 
+  color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  transition: transform 0.3s, border 0.3s; 
+  border: 1px solid transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.project-card:hover {
+  transform: translateY(-10px); 
+  border: 1px solid teal;
+  box-shadow: 0 0 20px rgba(139, 233, 253, 0.5);
+}
+
+.project-title {
+  font-family: 'Rubik', sans-serif;
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+}
+
+.project-list {
+  font-family: 'Mulish', sans-serif;
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-bottom: 20px;
+  font-size: 0.7rem;
+  text-align: justify;
+}
+
+.project-list li {
+  margin-bottom: 8px;
+}
+
+.project-button-container {
+  text-align: center;
+  margin-top: auto; 
+}
+
+.project-button {
+  background-color: #24292e; 
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: background-color 0.3s ease;
+  font-size: 0.8rem;
+}
+
+.project-button i {
+  font-size: 1rem;
+}
+
+.project-button:hover {
+  background-color: #2c313a; 
+}
+
+.project-button:focus,
+.project-button.focus {
+  box-shadow: 0 0 0 0.2rem rgba(108, 117, 125, 0.5); 
+}
+
+/* Media Queries */
+@media (max-width: 1200px) {
   .projects-heading {
-    font-family: 'Josefin Sans', sans-serif;
-    color: teal;
-    text-align: left;
-    margin-bottom: 50px;
-    font-size: 2rem; 
+    font-size: 1.6rem; /* Adjust font size for medium screens */
+  }
+
+  .project-card {
     margin-bottom: 20px;
   }
-  
-  .project-card {
-    margin-bottom: 30px;
-    background-color: #000; 
-    color: #fff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
-    transition: transform 0.3s, border 0.3s; 
-    border: 1px solid transparent;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100%;
-  }
-  
-  .project-card:hover {
-    transform: translateY(-10px); 
-    border: 1px solid teal;
-    box-shadow: 0 0 20px rgba(139, 233, 253, 0.5);
-  }
-  
+
   .project-title {
-    font-family: 'Rubik', sans-serif;
-    font-size: 1.4rem; 
+    font-size: 1.2rem;
+  }
+
+  .project-list {
+    font-size: 0.8rem; /* Slightly larger text for readability */
+  }
+}
+
+@media (max-width: 768px) {
+  .projects-heading {
+    font-size: 1.4rem; /* Further reduce font size for small screens */
+  }
+
+  .project-card {
+    margin-bottom: 15px;
+  }
+
+  .project-title {
+    font-size: 1rem;
+  }
+
+  .project-list {
+    font-size: 0.9rem;
+  }
+
+  .project-button {
+    padding: 8px 16px;
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .projects-heading {
+    font-size: 1.2rem; /* Further reduce font size for extra-small screens */
+  }
+
+  .project-card {
     margin-bottom: 10px;
   }
-  
+
+  .project-title {
+    font-size: 0.9rem;
+  }
+
   .project-list {
-    font-family: 'Mulish', sans-serif;
-    list-style-type: disc;
-    padding-left: 20px;
-    margin-bottom: 20px;
-    font-size: 0.7rem; 
-    text-align: justify; 
+    font-size: 1rem; /* Adjust text size for better readability on very small screens */
   }
-  
-  .project-list li {
-    margin-bottom: 8px;
-  }
-  
-  .project-button-container {
-    text-align: center;
-    margin-top: auto; 
-  }
-  
+
   .project-button {
-    background-color: #24292e; 
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-transform: uppercase;
-    font-weight: bold;
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    transition: background-color 0.3s ease;
-    font-size: 0.8rem; 
+    padding: 6px 12px;
+    font-size: 0.6rem;
   }
-  
-  .project-button i {
-    font-size: 1rem; 
-  }
-  
-  .project-button:hover {
-    background-color: #2c313a; 
-  }
-  
-  .project-button:focus,
-  .project-button.focus {
-    box-shadow: 0 0 0 0.2rem rgba(108, 117, 125, 0.5); 
-  }
+}

@@ -33,15 +33,15 @@
   width: 80%;
   max-width: 1200px;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column; /* Ensure elements stack vertically */
+  align-items: center; /* Center items horizontally */
   position: relative;
 }
 
 .about h1 {
   font-size: 2rem;
   font-family: 'Josefin Sans', sans-serif;
-  padding-left: 20px;
+  padding-bottom: 20px; /* Space between heading and paragraph */
   color: teal;
   opacity: 0;
   transform: translateX(100%);
@@ -66,4 +66,49 @@
 
 .about p.animate {
   animation: slideRight 1s forwards;
+}
+
+/* Media Queries */
+@media (max-width: 1200px) {
+  .about h1 {
+    font-size: 1.8rem; /* Slightly reduce font size for medium screens */
+  }
+
+  .about p {
+    font-size: 15px; /* Adjust font size for better readability */
+  }
+
+  .about .container {
+    text-align: center; /* Center text on medium screens */
+  }
+
+  .about p {
+    padding-right: 0; /* Remove padding for better alignment */
+    max-width: 90%; /* Increase max-width to utilize more screen space */
+  }
+}
+
+@media (max-width: 768px) {
+  .about h1 {
+    font-size: 1.5rem; /* Further reduce font size for small screens */
+  }
+
+  .about p {
+    font-size: 14px; /* Adjust font size for small screens */
+  }
+}
+
+@media (max-width: 576px) {
+  .about h1 {
+    font-size: 1.3rem; /* Reduce font size for extra-small screens */
+  }
+
+  .about p {
+    font-size: 13px; /* Adjust font size for extra-small screens */
+    line-height: 1.5; /* Adjust line height for better readability */
+  }
+
+  .about .container {
+    padding: 0 10px; /* Add padding to prevent text from touching edges */
+  }
 }
