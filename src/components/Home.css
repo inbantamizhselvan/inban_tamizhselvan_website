@@ -19,7 +19,7 @@
   100% {
     transform: translateY(0%);
     opacity: 1;
-    color: teal;
+    color: rgb(156, 197, 211);
   }
 }
 
@@ -32,32 +32,65 @@
   }
 }
 
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #000;
+  background-image: url("../assets/images/full-stack-background.png");
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+  color: #f5f5f5;
+}
+
+a {
+  text-decoration: none;
+}
+
+.App {
+  text-align: center;
+}
+
+section {
+  padding: 50px 0;
+  transition: background-color 0.3s ease;
+}
+
 .home {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #000;
   padding: 100px 0;
   overflow: hidden;
 }
 
 .profile-pic-wrapper {
   text-align: center;
-  margin-bottom: 20px;
-  height: 300px;
-  width: 300px;
+  margin-bottom: 10px;
+  height: auto;
+  width: auto;
+  position: relative;
+  /* Adjusted to move the image up */
+  margin-top: -76px; /* Negative value to move the image up */
+  animation: slideLeft 2s ease-out forwards; /* Apply the sliding animation */
 }
 
 .profile-pic {
-  border-radius: 50%;
-  margin-left: 76px;
-  height: 300px;
-  width: 300px;
+  height: 400px; /* Enlarged size */
+  width: 400px; /* Enlarged size */
+  background: transparent;
   object-fit: cover;
-  border: 5px solid teal;
-  box-shadow: 0 0 20px rgba(139, 233, 253, 0.5);
-  animation: slideLeft 2s ease-in-out forwards, fadeIn 2s ease-in-out forwards;
+  border-radius: 50%; /* Optional: Makes the image circular */
+  filter: drop-shadow(0 0 15px rgba(139, 233, 253, 0.7)); /* Glow effect around the edges */
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.profile-pic:hover {
+  transform: scale(1.1); /* Slight zoom effect on hover */
+  filter: drop-shadow(0 0 25px rgba(139, 233, 253, 1)); /* Stronger glow effect on hover */
 }
 
 .text-wrapper {
@@ -66,14 +99,14 @@
 }
 
 .name {
-  font-family: 'mulish', sans-serif;
+  font-family: 'Mulish', sans-serif;
   font-size: 3em;
   margin-bottom: 10px;
   animation: slideDown 2s ease-in-out forwards, fadeIn 2s ease-in-out 0.5s forwards;
 }
 
 .typing p {
-  font-family: "Courier", monospace;
+  font-family: 'Courier', monospace;
   font-size: 1.2em;
   word-wrap: break-word;
 }
@@ -83,8 +116,8 @@
   display: inline-block;
   padding: 10px 20px;
   margin-top: 20px;
-  background-color: teal; /* Button background color */
-  color: #fff; /* Button text color */
+  background-color: #ffdf00;
+  color: #000;
   border: none;
   border-radius: 5px;
   font-size: 18px;
@@ -93,10 +126,7 @@
 }
 
 .download-resume-btn:hover {
-  background-color: #00796b; /* Darker teal on hover */
+  background-color: #ffa500;
   cursor: pointer;
-  text-decoration: none;
-}
-a{
   text-decoration: none;
 }

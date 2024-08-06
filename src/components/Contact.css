@@ -33,7 +33,8 @@
   }
   
   .contact-buttons .gmail {
-    background-color: #d14836; /* Gmail red */
+    background-color: #d14836;
+    align-items: center; /* Gmail red */
   }
   
   .contact-buttons .github {

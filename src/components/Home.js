@@ -1,15 +1,15 @@
 import React, { useEffect, useState } from 'react';
-import profile from '../assets/images/profile.jpg';
-import resume from '../assets/resume.pdf';
+import profile from '../assets/images/profile.png'; // Ensure this path is correct
+import resume from '../assets/resume.pdf'; // Ensure this path is correct
 import 'bootstrap/dist/css/bootstrap.min.css';
+import backgroundImage from '../assets/images/image-removebg-preview.png'; // Ensure this path is correct
 import './Home.css';
 
 function Home() {
   const [text, setText] = useState('');
   const [index, setIndex] = useState(0);
 
-  const fullText =
-    "I am a Computer Science professional currently pursuing Master of Science in Computer and Information Science at the University of Massachusetts Dartmouth.";
+  const fullText = "I am a Computer Science professional currently pursuing a Master of Science in Computer and Information Science at the University of Massachusetts Dartmouth.";
 
   useEffect(() => {
     if (index < fullText.length) {
@@ -23,7 +23,18 @@ function Home() {
   }, [index, fullText]);
 
   return (
-    <section id="home" className="home">
+    <section
+      id="home"
+      className="home"
+      style={{
+        backgroundImage: `url(${backgroundImage}) rgba(255, 0, 150, 0.3)`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        height: "100vh",
+        width: "100vw",
+        backgroundBlendMode: "multiply"
+      }}
+    >
       <div className="container">
         <div className="row justify-content-center align-items-center">
           <div className="col-12 col-sm-6 col-md-4 text-center mb-4 mb-md-0">
@@ -37,7 +48,9 @@ function Home() {
               <div className="typing">
                 <p>{text}</p>
               </div>
-              <a href={resume} target="_blank" rel="noopener noreferrer" className="download-resume-btn"><i class="fas fa-cloud-download-alt"></i> Download Resume</a>
+              <a href={resume} target="_blank" rel="noopener noreferrer" className="download-resume-btn">
+                <i className="fas fa-cloud-download-alt"></i> Download Resume
+              </a>
             </div>
           </div>
         </div>
