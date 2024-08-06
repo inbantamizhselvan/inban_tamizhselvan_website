@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/inban_tamizhselvan_website/static/css/main.b0c760a7.css",
-    "main.js": "/inban_tamizhselvan_website/static/js/main.c4256e4f.js",
+    "main.css": "/inban_tamizhselvan_website/static/css/main.cda87cb1.css",
+    "main.js": "/inban_tamizhselvan_website/static/js/main.7da0bb36.js",
     "static/media/fa-solid-900.ttf": "/inban_tamizhselvan_website/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
     "static/media/fa-brands-400.ttf": "/inban_tamizhselvan_website/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
     "static/media/fa-solid-900.woff2": "/inban_tamizhselvan_website/static/media/fa-solid-900.93f719f4d62bfa3e748c.woff2",
@@ -15,11 +15,11 @@
     "static/media/fa-v4compatibility.ttf": "/inban_tamizhselvan_website/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
     "static/media/fa-v4compatibility.woff2": "/inban_tamizhselvan_website/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
     "index.html": "/inban_tamizhselvan_website/index.html",
-    "main.b0c760a7.css.map": "/inban_tamizhselvan_website/static/css/main.b0c760a7.css.map",
-    "main.c4256e4f.js.map": "/inban_tamizhselvan_website/static/js/main.c4256e4f.js.map"
+    "main.cda87cb1.css.map": "/inban_tamizhselvan_website/static/css/main.cda87cb1.css.map",
+    "main.7da0bb36.js.map": "/inban_tamizhselvan_website/static/js/main.7da0bb36.js.map"
   },
   "entrypoints": [
-    "static/css/main.b0c760a7.css",
-    "static/js/main.c4256e4f.js"
+    "static/css/main.cda87cb1.css",
+    "static/js/main.7da0bb36.js"
   ]
 }
