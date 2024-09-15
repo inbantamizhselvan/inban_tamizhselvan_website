@@ -1,23 +1,26 @@
 {
   "files": {
-    "main.css": "/inban_tamizhselvan_website/static/css/main.27fc4b2c.css",
-    "main.js": "/inban_tamizhselvan_website/static/js/main.f8471cc8.js",
+    "main.css": "/inban_tamizhselvan_website/static/css/main.168e1a44.css",
+    "main.js": "/inban_tamizhselvan_website/static/js/main.22f964d7.js",
+    "static/media/NFT.png": "/inban_tamizhselvan_website/static/media/NFT.1b9f5db78495f8a0da6d.png",
     "static/media/fa-solid-900.ttf": "/inban_tamizhselvan_website/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
+    "static/media/chat.png": "/inban_tamizhselvan_website/static/media/chat.8947384024202608a129.png",
     "static/media/fa-brands-400.ttf": "/inban_tamizhselvan_website/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
     "static/media/fa-solid-900.woff2": "/inban_tamizhselvan_website/static/media/fa-solid-900.93f719f4d62bfa3e748c.woff2",
     "static/media/fa-brands-400.woff2": "/inban_tamizhselvan_website/static/media/fa-brands-400.bb8d5a145e22822103fb.woff2",
     "static/media/profile.png": "/inban_tamizhselvan_website/static/media/profile.5e5e3214734adc2ace56.png",
+    "static/media/Todo.png": "/inban_tamizhselvan_website/static/media/Todo.7c33a32b445eb6b88917.png",
     "static/media/Resume_Inban Tamizhselvan.pdf": "/inban_tamizhselvan_website/static/media/Resume_Inban Tamizhselvan.b8f27872f63e068e73d7.pdf",
     "static/media/fa-regular-400.ttf": "/inban_tamizhselvan_website/static/media/fa-regular-400.17a6e1aebccdbaa39e78.ttf",
     "static/media/fa-regular-400.woff2": "/inban_tamizhselvan_website/static/media/fa-regular-400.bc3722686635b5f86132.woff2",
     "static/media/fa-v4compatibility.ttf": "/inban_tamizhselvan_website/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
     "static/media/fa-v4compatibility.woff2": "/inban_tamizhselvan_website/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
     "index.html": "/inban_tamizhselvan_website/index.html",
-    "main.27fc4b2c.css.map": "/inban_tamizhselvan_website/static/css/main.27fc4b2c.css.map",
-    "main.f8471cc8.js.map": "/inban_tamizhselvan_website/static/js/main.f8471cc8.js.map"
+    "main.168e1a44.css.map": "/inban_tamizhselvan_website/static/css/main.168e1a44.css.map",
+    "main.22f964d7.js.map": "/inban_tamizhselvan_website/static/js/main.22f964d7.js.map"
   },
   "entrypoints": [
-    "static/css/main.27fc4b2c.css",
-    "static/js/main.f8471cc8.js"
+    "static/css/main.168e1a44.css",
+    "static/js/main.22f964d7.js"
   ]
 }
